@@ -1,1 +1,2 @@
 # hugo-minimal-theme
+
