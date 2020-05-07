@@ -41,8 +41,6 @@ hugo --verbose
 
 ## Usage
 
----
-
 May be installed as a git submodule:
 
 ```bash
@@ -50,8 +48,6 @@ git submodule add https://github.com/wes-o/hugo-minimal-theme.git themes/hugo-mi
 ```
 
 ## Configuration
-
----
 
 In the main Hugo site directory edit the `config.toml` file as shown:
 
@@ -67,8 +63,6 @@ hugo server --gc
 ```
 
 ## Theme Content
-
----
 
 TODO
 
