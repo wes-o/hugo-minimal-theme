@@ -2,7 +2,7 @@
 
 A minimal theme for Hugo framework.
 
-## Get up to speed with Hugo
+## Get up to speed with Hugo  
 
 **Starting from scratch:**  
 
@@ -74,7 +74,7 @@ TODO
 
 ## License
 
-Code released under the [MIT](https://github.com/wes-o/wes-o.github.io/blob/master/LICENSE) license.
+Code released under the [MIT](https://github.com/wes-o/hugo-minimal-theme/blob/master/LICENSE) license.
 
 ---
 
