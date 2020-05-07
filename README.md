@@ -2,7 +2,7 @@
 
 A minimal theme for Hugo framework.
 
-## Get up to speed with Hugo
+## Get up to speed with Hugo  
 
 **Starting from scratch:**  
 
@@ -41,8 +41,6 @@ hugo --verbose
 
 ## Usage
 
----
-
 May be installed as a git submodule:
 
 ```bash
@@ -50,8 +48,6 @@ git submodule add https://github.com/wes-o/hugo-minimal-theme.git themes/hugo-mi
 ```
 
 ## Configuration
-
----
 
 In the main Hugo site directory edit the `config.toml` file as shown:
 
@@ -68,13 +64,11 @@ hugo server --gc
 
 ## Theme Content
 
----
-
 TODO
 
 ## License
 
-Code released under the [MIT](https://github.com/wes-o/wes-o.github.io/blob/master/LICENSE) license.
+Code released under the [MIT](https://github.com/wes-o/hugo-minimal-theme/blob/master/LICENSE) license.
 
 ---
 
