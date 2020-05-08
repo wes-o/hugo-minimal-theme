@@ -41,15 +41,17 @@ hugo --verbose
 
 ## Usage
 
-May be installed as a git submodule:
+Installed as a git submodule:
 
 ```bash
 git submodule add https://github.com/wes-o/hugo-minimal-theme.git themes/hugo-minimal-theme
+git submodule init
+git submodule update
 ```
 
 ## Configuration
 
-In the main Hugo site directory edit the `config.toml` file as shown:
+In the main Hugo site directory, edit the `config.toml` file as shown:
 
 ```bash
 # Add theme to the config.toml file
@@ -65,6 +67,38 @@ hugo server --gc
 ## Theme Content
 
 TODO
+
+```bash
+```
+
+### Develop locally on `exampleSite`
+
+**As a submodule in your main Hugo site:**
+
+*See [Usage](#usage) instructions above for pre-requisite steps.*
+
+```bash
+# Set to update from the remote repository
+git submodule update --remote themes/hugo-minimal-theme
+```
+
+**Navigate to [themes/hugo-minimal-theme/exampleSite]:**
+
+*A sample `config.toml` is located in this directory.* 
+
+**Copy to your main Hugo site, then edit with your own information:**
+
+```bash
+# In the main Hugo site directory level
+cp themes/hugo-minimal-theme/exampleSite/config.toml . 
+```
+
+```bash
+# Start the Hugo server from sub-level directory
+hugo server --themesDir ../..
+```
+
+Happy Hu-GO-ing! :coffee:
 
 ## License
 
