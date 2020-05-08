@@ -1,0 +1,16 @@
+# The /exampleSite config.toml file
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo-Minimal-Theme"
+
+[author]
+  name = "Wes Oler"
+  homepage = "https://github.com/wes-o"
+
+# If porting an existing theme
+[original]
+  name = "Wes Oler"
+  homepage = "https://github.com/wes-o"
+  repo = "https://github.com/wes-o/hugo-minimal-theme"
+
+
