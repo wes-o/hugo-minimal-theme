@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<body lang="{{ .Site.LanguageCode }}" class="sans-serif w-90 center center-ns">
+    <div class="b">
+        <p>{{ .Site.Params.pageBook | emojify }}
+            </p>
+        </div>
+    <span class="b">/ </span>
+    <a href="{{ .Site.BaseURL  }}" class="b bb black">{{ .Site.Title  }}</a>
+    <section id="main" class="mt5">
+        <div>
+            <ul id="list" class="pl0">
+                {{ range .Data.Pages.ByDate.Reverse }}
+                <li class="list pl0">
+                    <a class="f3 b black" href="{{ .Permalink}}">{{ .Title }}</a>
+                    <span class="f6 gray db">{{ .Date }}</span>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

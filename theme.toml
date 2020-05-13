@@ -3,11 +3,12 @@
 
 name = "Hugo Minimal Theme"
 license = "MIT"
-licenselink = "https://github.com/wes-o/hugo-minimal-theme/blob/master/LICENSE"
-description = "A minimal theme for Hugo framework"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = "A base minimal theme for Hugo framework"
+copyright = "© 2020 <a href='https://github.com/wes-o/hugo-minimal-theme'>Hugo Minimal Theme</a>. Made by <a href='https://github.com/wes-o'>@wes-o</a>."
 homepage = "https://github.com/wes-o/hugo-minimal-theme"
-tags = ["hugo", "minimal"]
-features = []
+tags = ["minimal"]
+features = ["blog", "emoji", "responsive"]
 min_version = "0.41.0"
 
 [author]
@@ -16,6 +17,6 @@ min_version = "0.41.0"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "hugo-minimal-theme"
+  homepage = "https://github.com/wes-o/hugo-minimal-theme"
+  repo = "https://github.com/wes-o/hugo-minimal-theme.git"
