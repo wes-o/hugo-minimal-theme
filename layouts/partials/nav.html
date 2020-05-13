@@ -1,0 +1,9 @@
+{{ if .Site.Params.menu }}
+<nav class="menu" role="nav">
+    <ul>
+        {{ range .Site.Params.menu }}
+        <li class="nav"><a class="no-underline" href="{{ .url }}">{{ .name }}</a></li>
+        {{end}}
+    </ul>
+</nav>
+{{ end }}

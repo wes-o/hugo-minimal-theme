@@ -1,22 +1,18 @@
+{{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<body
-  lang="{{ .Site.LanguageCode }}"
-  class="sans-serif"
-  itemscope
-  itemtype="http://schema.org/Article"
->
+<body lang="{{ .Site.LanguageCode }}" class="sans-serif w-90 center center-ns">
+    <div class="b">
+        <p>{{ .Site.Params.pageBook | emojify }}
+            </p>
+        </div>
   {{ $baseurl := .Site.BaseURL }}
   <span class="b">/ </span>
-  <a
-    href="{{ .Site.BaseURL  }}"
-    class=""
-    >{{ .Site.Title }}</a
-  >
+  <a href="{{ .Site.BaseURL  }}" class="b bb bw1 black no-underline pb1">{{ .Site.Title }}</a>
 
-  <section id="main">
+  <section id="main" class="mt5">
     <h1 itemprop="name" id="title">{{ .Title }}</h1>
     <h5 itemprop="description" id="desc">{{ .Description }}</h5>
-    <article itemprop="articleBody" id="content">
+    <article itemprop="articleBody" id="content" class="w-90">
       {{ .Content }}
     </article>
   </section>
