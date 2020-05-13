@@ -84,13 +84,13 @@ git submodule update --remote themes/hugo-minimal-theme
 
 **Navigate to [themes/hugo-minimal-theme/exampleSite]:**
 
-*A sample `config.toml` is located in this directory.* 
+*A sample `config.toml` is located in this directory.*
 
 **Copy to your main Hugo site, then edit with your own information:**
 
 ```bash
 # In the main Hugo site directory level
-cp themes/hugo-minimal-theme/exampleSite/config.toml . 
+cp themes/hugo-minimal-theme/exampleSite/config.toml .
 ```
 
 ```bash
