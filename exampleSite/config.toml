@@ -1,16 +1,36 @@
-# The /exampleSite config.toml file
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Hugo-Minimal-Theme"
+title = "My New Hugo Site"
+description = ""
 
-[author]
-  name = "Wes Oler"
-  homepage = "https://github.com/wes-o"
+# Change for your site
+ theme = "hugo-minimal-theme" 
+ MetaDataFormat = "toml" 
 
-# If porting an existing theme
-[original]
-  name = "Wes Oler"
-  homepage = "https://github.com/wes-o"
-  repo = "https://github.com/wes-o/hugo-minimal-theme"
+[params]
+  titleEmoji = ":bicycle:"
+  pageBook = ":book:"
+  copyright = "© 2020 <a href='https://github.com/wes-o/hugo-minimal-theme'>Hugo Minimal Theme</a>. Made by <a href='https://github.com/wes-o'>@wes-o</a>."
+
+[Permalinks]
+  post = "post/:slug"
+
+# Additional pages are added with following structure
+# [[params.menu]]
+#   name = "Another Page"
+#   url = "another-page/"
+
+[[params.menu]]
+  name = "About"
+  url = "about/"
+
+[[params.menu]]
+  name = "Blog"
+  url = "post/"
+
+# Customize or translate 
+	keepReadingStr = "Keep reading"
+	backtotopStr = "Back to top"
+	pageNotFoundTitle = "404 - Page not found"
 
 
